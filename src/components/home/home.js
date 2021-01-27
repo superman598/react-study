@@ -9,12 +9,12 @@ class HomeComponent extends React.Component {
   //   lastName: 'Perez'
   // };
   // 定义状态
-    state = {
-      user:{
-        firstName:"Harper",
-        lastName:""
-      }
+  state = {
+    user: {
+      firstName: "Harper",
+      lastName: ""
     }
+  }
 
   formatName(user) {
     return user.firstName + ' ' + user.lastName;
@@ -25,7 +25,7 @@ class HomeComponent extends React.Component {
       <div className="home">
         <div className="children-one">
           {' '}
-          我是一个 子级 div 哈 ！！！名字叫做: {name} 
+          我是一个 子级 div 哈 ！！！名字叫做: {name}
         </div>
       </div>
     );
