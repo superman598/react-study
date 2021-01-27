@@ -4,10 +4,17 @@ import React from "react";
 const name = "Josh Perez";
 class HomeComponent extends React.Component {
 
-  const user = {
-    firstName: 'Harper',
-    lastName: 'Perez'
-  };
+  // const user = {
+  //   firstName: 'Harper',
+  //   lastName: 'Perez'
+  // };
+  // 定义状态
+    state = {
+      user:{
+        firstName:"Harper",
+        lastName:""
+      }
+    }
 
   formatName(user) {
     return user.firstName + ' ' + user.lastName;
